@@ -1,0 +1,57 @@
+body {
+  background-color:#759492;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+header .title {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  background-color: #273547;
+  border-radius: 20px;
+  width: 400px;
+  padding: 10px 0px;
+  margin-bottom: 100px;
+}
+
+main .info {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .squares {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+main .square {
+  background-color: #273547;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+main .square span {
+  color: #fff;
+  font-size: 50px;
+  width: 100%;
+}
+
+main .square:hover {
+  cursor: pointer;
+}
